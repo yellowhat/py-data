@@ -1,0 +1,251 @@
+{
+    "config": [
+        {
+            "config": {
+                "defaultAggregated": true,
+                "geoms": [
+                    "auto"
+                ],
+                "coordSystem": "generic",
+                "limit": -1,
+                "timezoneDisplayOffset": 0
+            },
+            "encodings": {
+                "dimensions": [
+                    {
+                        "dragId": "gw_qF0P",
+                        "fid": "cyl",
+                        "name": "cyl",
+                        "basename": "cyl",
+                        "semanticType": "quantitative",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_556E",
+                        "fid": "yr",
+                        "name": "yr",
+                        "basename": "yr",
+                        "semanticType": "quantitative",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_F0J1",
+                        "fid": "origin",
+                        "name": "origin",
+                        "basename": "origin",
+                        "semanticType": "nominal",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_KutT",
+                        "fid": "name",
+                        "name": "name",
+                        "basename": "name",
+                        "semanticType": "nominal",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_u2_V",
+                        "fid": "mfr",
+                        "name": "mfr",
+                        "basename": "mfr",
+                        "semanticType": "nominal",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_mea_key_fid",
+                        "fid": "gw_mea_key_fid",
+                        "name": "Measure names",
+                        "analyticType": "dimension",
+                        "semanticType": "nominal"
+                    }
+                ],
+                "measures": [
+                    {
+                        "dragId": "gw_GbxZ",
+                        "fid": "mpg",
+                        "name": "mpg",
+                        "basename": "mpg",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_O6VW",
+                        "fid": "displ",
+                        "name": "displ",
+                        "basename": "displ",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_SlUI",
+                        "fid": "hp",
+                        "name": "hp",
+                        "basename": "hp",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_aGyr",
+                        "fid": "weight",
+                        "name": "weight",
+                        "basename": "weight",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_SWcL",
+                        "fid": "accel",
+                        "name": "accel",
+                        "basename": "accel",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_count_fid",
+                        "fid": "gw_count_fid",
+                        "name": "Row count",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "computed": true,
+                        "expression": {
+                            "op": "one",
+                            "params": [],
+                            "as": "gw_count_fid"
+                        }
+                    },
+                    {
+                        "dragId": "gw_mea_val_fid",
+                        "fid": "gw_mea_val_fid",
+                        "name": "Measure values",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum"
+                    }
+                ],
+                "rows": [
+                    {
+                        "dragId": "gw_MFXr",
+                        "fid": "origin",
+                        "name": "origin",
+                        "basename": "origin",
+                        "semanticType": "nominal",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    },
+                    {
+                        "dragId": "gw_IVFK",
+                        "fid": "mfr",
+                        "name": "mfr",
+                        "basename": "mfr",
+                        "semanticType": "nominal",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    }
+                ],
+                "columns": [
+                    {
+                        "dragId": "gw_LnWj",
+                        "fid": "yr",
+                        "name": "yr",
+                        "basename": "yr",
+                        "semanticType": "quantitative",
+                        "analyticType": "dimension",
+                        "offset": 0
+                    }
+                ],
+                "color": [
+                    {
+                        "dragId": "gw_x92W",
+                        "fid": "hp",
+                        "name": "hp",
+                        "basename": "hp",
+                        "analyticType": "measure",
+                        "semanticType": "quantitative",
+                        "aggName": "sum",
+                        "offset": 0
+                    }
+                ],
+                "opacity": [],
+                "size": [],
+                "shape": [],
+                "radius": [],
+                "theta": [],
+                "longitude": [],
+                "latitude": [],
+                "geoId": [],
+                "details": [],
+                "filters": [],
+                "text": []
+            },
+            "layout": {
+                "showActions": false,
+                "showTableSummary": false,
+                "stack": "stack",
+                "interactiveScale": false,
+                "zeroScale": true,
+                "size": {
+                    "mode": "fixed",
+                    "width": 1244,
+                    "height": 427
+                },
+                "format": {},
+                "geoKey": "name",
+                "resolve": {
+                    "x": false,
+                    "y": false,
+                    "color": false,
+                    "opacity": false,
+                    "shape": false,
+                    "size": false
+                }
+            },
+            "visId": "gw_CDHq",
+            "name": "Chart 1"
+        }
+    ],
+    "chart_map": {},
+    "version": "0.4.7",
+    "workflow_list": [
+        {
+            "workflow": [
+                {
+                    "type": "view",
+                    "query": [
+                        {
+                            "op": "aggregate",
+                            "groupBy": [
+                                "yr",
+                                "origin",
+                                "mfr"
+                            ],
+                            "measures": [
+                                {
+                                    "field": "hp",
+                                    "agg": "sum",
+                                    "asFieldKey": "hp_sum"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
